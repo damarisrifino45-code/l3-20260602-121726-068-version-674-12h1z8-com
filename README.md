@@ -1,16 +1,28 @@
-﻿# website-upload-20260602-121726-068
+# 热门电影片库-最新影片合集更新-高清电影在线播放
 
-Batch 68 of 38. Contains extracted static website versions. The original zip files are not committed.
+生成结果：
+- 首页：index.html
+- 分类总览：categories.html
+- 独立分类页：10 个
+- 影片详情页：1983 个
+- 搜索筛选页：search.html
+- 热播榜：rank.html
+- 站点地图：sitemap.html / sitemap.xml
 
-| Directory | Source zip |
-| --- | --- |
-| version-671 | project-bolt-sb1-a6kfqrv4 - 副本-chatgpt (1) (moved 1).zip |
-| version-672 | project-bolt-sb1-a6kfqrv4 - 副本-chatgpt (1).zip |
-| version-673 | project-bolt-sb1-a6kfqrv4-chatgpt (1) (moved 1).zip |
-| version-674 | project-bolt-sb1-a6kfqrv4-chatgpt (1).zip |
-| version-675 | project-bolt-sb1-a9abeyef - 副本-chatgpt (1).zip |
-| version-676 | project-bolt-sb1-a9abeyef-chatgpt (1).zip |
-| version-677 | project-bolt-sb1-a9ohwwas - 副本-chatgpt (1) (moved 1).zip |
-| version-678 | project-bolt-sb1-a9ohwwas - 副本-chatgpt (1).zip |
-| version-679 | project-bolt-sb1-a9ohwwas-chatgpt (1) (moved 1).zip |
-| version-680 | project-bolt-sb1-a9ohwwas-chatgpt (1) (moved 2).zip |
+分类分布：
+- 动画动漫: 198 部
+- 动作惊悚: 199 部
+- 古装历史: 198 部
+- 家庭青春: 198 部
+- 纪录真人: 198 部
+- 剧情文艺: 199 部
+- 科幻奇幻: 198 部
+- 全球精选: 198 部
+- 喜剧爱情: 199 部
+- 悬疑推理: 198 部
+
+图片说明：
+页面已经按要求引用站点根目录下的 1.jpg 到 150.jpg。将对应图片放在网站根目录后，首页 Hero、分类图和影片封面会自动显示。
+
+播放说明：
+详情页播放器使用上传 JS 中解析出的 m3u8 播放源，并通过 assets/js/hls-vendor-dru42stk.js 初始化 HLS 播放。
